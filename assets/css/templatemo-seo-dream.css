@@ -846,7 +846,17 @@ preloader
 Banner Style
 --------------------------------------------- 
 */
-
+.centered {
+  position: absolute;
+  top: 70%;
+  border: #000000;
+  width: 50em;
+  border-style: solid;
+  border-color: white;
+  left: 19%;
+  overflow: none;
+  color: white;
+}
 .main-banner {
   background-repeat: no-repeat;
   background-position: center center;
